@@ -1,15 +1,13 @@
 # Apple Picker 3D – Unity Game
 
 ## Project Overview
-**Apple Picker 3D** is a Unity-based game inspired by the classic Apple Picker tutorial from Bond (Ch. 29). Players control a basket to catch falling apples while avoiding hazardous objects (bombs/cinder blocks). The game includes multiple rounds, scoring, and a simple UI for round tracking and game restart.
-
-This project was developed as part of **CS382 – Game Design, Development, and Technology (Project 1)**.  
+**Apple Picker 3D** is a Unity-based game. Players control a basket to catch falling apples while avoiding bombs. The game includes multiple rounds, scoring, and a simple UI for round tracking and game restart.
 
 ### Key Features
-- **4 Baskets** for catching apples  
+- **Baskets** for catching apples  
 - **Round system** with UI display (“Round 1” → “Round 4”)  
 - **Apples** that increase score when caught  
-- **Bombs / cinder blocks** that end the game if caught  
+- **Bombs** that end the game if caught  
 - **Start and Restart UI buttons**  
 - **Simple 3D environment** with physics-based falling objects  
 
@@ -29,4 +27,4 @@ This project was developed as part of **CS382 – Game Design, Development, and 
 1. Clone the repository:
 
 ```bash
-git clone <your-repo-link>
+git clone https://github.com/JacobLStephens/Apple-Picker
