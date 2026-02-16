@@ -6,6 +6,7 @@ public class MainMenu : MonoBehaviour
 {
     public void StartGame()
     {
-        SceneManager.LoadScene("_Scene_0");
+        Debug.Log("Start button pressed!");
+        SceneManager.LoadScene(1);
     }
 }
