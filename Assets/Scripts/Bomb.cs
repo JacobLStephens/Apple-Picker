@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Apple : MonoBehaviour
+public class Bomb : MonoBehaviour
 {
     public static float bottomY = -20f;
 
@@ -10,9 +10,7 @@ public class Apple : MonoBehaviour
     {
         if (transform.position.y < bottomY)
         {
-            Destroy (this.gameObject);
-            ApplePicker apScript = Camera.main.GetComponent<ApplePicker>();
-            apScript.AppleMissed();
+            Destroy(this.gameObject);
         }
     }
 }
