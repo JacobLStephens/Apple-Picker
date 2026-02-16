@@ -20,11 +20,3 @@
 4. **Avoid bombs**: catching a bomb ends the game immediately.  
 5. The game progresses through 4 rounds. If all baskets are lost or a bomb is caught, the game ends.  
 6. Press the **Restart button** to play again.
-
----
-
-## Installation / Running the Project
-1. Clone the repository:
-
-```bash
-git clone https://github.com/JacobLStephens/Apple-Picker
